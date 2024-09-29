@@ -1,5 +1,5 @@
 #include<iostream>
-#include<memory.h>
+#include "Ram.h"
 using namespace std;
 
 #include "Ram.h"
@@ -11,7 +11,7 @@ Ram::Ram() {
 		mem[i] = 0;
 }
 Ram::~Ram() {
-	cout << "�޸� ���ŵ�";
+	cout << "¸Þ¸ð¸® Á¦°ÅµÊ";
 }
 char Ram::read(int address) {
 	return mem[address];
